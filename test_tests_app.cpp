@@ -14,12 +14,7 @@ class ExampleApplication
     public:
     
         void init( Os::AppMainParameter& value )
-        {
-        	change1
-        	change1
-        	change1
-        	change1
-        	
+        {        	
             radio_ = &wiselib::FacetProvider::get_facet( value );
             timer_ = &wiselib::FacetProvider::get_facet( value );
             debug_ = &wiselib::FacetProvider::get_facet( value );
